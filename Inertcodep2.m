@@ -14,7 +14,7 @@ last argument controls the size of the truncation. By default it also uses the b
 
 
 /* There is also a function Brantmatrices, will return the matrices used to define the Up operator at level U_0(p^2). 
-Specifially, the matrices in Proposition 2.7 os loc.cit.*/
+Specifially, the matrices in Proposition 2.7 of loc.cit.*/
 
 
 
