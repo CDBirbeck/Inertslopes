@@ -5,14 +5,16 @@ SetSeed(2472118994,6863);
 
 
 /*This is code to compute slopes in the case where p=2, your field is Q(\sqrt 5) and the level is U_0(p^2).  */
-/*To run the code, whan you want do is run the code UpMatrix, this takes as the precision at which you want to work with, i.e. what precision the matric entries will have.
-Once you run this, the output will be a function, call it Up. This function Up takes 3 inputs, first ar k_1,k_2 which are the weight of
+/*To run the code, whan you want do is run the code UpMatrix, this takes as input the precision at which you want to work with, i.e. what
+precision the matrices entries will have.
+Once you run this, the output will be a function, call it Up. This function Up takes 3 inputs, first are k_1,k_2 which are the weight of
 modular forms you want. So give it odd positive integers, since those are all the weights in this case, the last argument is for how big
 you want the matrix to be. Since this computes overconvergent forms our Up matrices are truncations of the infinite diml matrix, so this 
 last argument controls the size of the truncation. By default it also uses the basis as described in the paper "2-adic slopes of Hilbert modular forms over Q(sqrt 5)".  */
 
 
-/* There is also a function Brantmatrices, will return the matrices used to define the Up operator at level U_0(p^2). Specifially, the matrices in Proposition 2.7 os loc.cit.*/
+/* There is also a function Brantmatrices, will return the matrices used to define the Up operator at level U_0(p^2). 
+Specifially, the matrices in Proposition 2.7 os loc.cit.*/
 
 
 
